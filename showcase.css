@@ -1,0 +1,41 @@
+.head{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    font-family: Franklin Gothic Medium;
+}
+#Brac{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: Times New Roman;
+    color:darkslateblue;
+}
+#for{
+    font-size: 18px;
+    font-family: arial narrow bold;
+    text-align: left;
+    
+}
+#myst{
+    font-size: 18px;
+    font-family: Lucida Sans Unicode;
+    text-align:center;
+    text-decoration: overline;
+    color: darkslategrey;
+}
+*{
+    background-color: azure;
+    box-sizing: border-box;
+}
+#round{
+    border-radius: 4px;
+}
+#vid{
+    font-size: 22px;
+    font-style: italic;
+    font-family: Verdana;
+}
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kadodae's Creations</title>
+    <link rel="stylesheet" href="Page 2.css">
+    <script type="text/javascript">
+        let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+    </script>
+</head>
+<body>
+    <!--Navigation Bar-->
+    <ul>       
+        <li><a class="active"href="#home">Home</a></li>
+        <li><a href="About us.html">About us</a></li>
+        <li><a href="Showcase.html">Showcase</a></li>
+        <li><a href="Shop now.html">Shop Now</a></li>
+        <li><a href="Contact Us.html">Contact us</a></li>
+    </ul>
+    </div>
+    <br>
+    <p id="par">KADODAE'S CREATIONS: HOW MELODY STYLES IT</p>
+    <br>
+    <!--Slideshow container-->
+    <div class="slideshow-container">
+
+        <!--Full-width images with number and caption text-->
+        <div class="mySlides fade">
+            <div class="numbertext">1/5</div>
+            <img src="Leaf.jpg"height="750"width="1000">
+            <div class="text">Statement Earings</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2/5</div>
+            <img src="Drip.jpg"height="750"width="1000">
+            <div class="text">Drip Airs</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3/5</div>
+            <img src="dangling stars.jpg"height="750"width="1000">
+            <div class="text">Dangling Stars</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4/5</div>
+            <img src="glassy.jpg"height="750"width="1000">
+            <div class="text">Glass Rings</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">5/5</div>
+            <img src="Hoops.jpg"height="750"width="1000">
+            <div class="text">Hoops</div>
+        </div>
+        <!--Next and previous buttons-->
+        <a class="prev"onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next"onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!--The dots/circle-->
+    <div style="text-align:center">
+        <span class="dot"onclick="currentSlide(1)"></span>
+        <span class="dot"onclick="currentSlide(2)"></span>
+        <span class="dot"onclick="currentSlide(3)"></span>
+        <span class="dot"onclick="currentSlide(4)"></span>
+        <span class="dot"onclick="currentSlide(5)"></span>
+        </div>
+</body>
+</html>
