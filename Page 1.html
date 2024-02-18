@@ -27,6 +27,23 @@
                 bottom: 8px;
                 right: 16px;
             }
+            .btn{
+                position: absolute;
+                text-align: center;
+                bottom: 16px;
+                left: 600px;
+                border: 5px solid teal;
+                background-color: teal;
+                padding:10px 25px;
+                font-size: 20px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                cursor: pointer;
+                transform: translate(-50%,-50%);
+                transition: color 0.4s linear;
+                }
+            .btn:hover:{
+                color: aqua;
+            }
         </style>
 	</head>
 		<body>
@@ -40,6 +57,6 @@
             <div class="bottom-right"><b><center>VISION:</center></b><center>To help Africans learn to embrace and appreciate the african culture and bask in its glory as African culture.</center>	
 		    </div>
         </div>
-		</body>
-        <a href="Page 2.html"target="_parent">Kadodae creations</a>
+        <button class=btn onclick="document.location='Page 2.html'">HOME</button>
+    </body>
 </html>			  
