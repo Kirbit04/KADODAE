@@ -1,12 +1,13 @@
 *{
-    background-color: teal;
+    background-color:teal;
 }
 ul{
     overflow: hidden;
     display: inline;
     list-style-type: none;
     margin: 0;
-    padding: 0;    
+    padding: 0;
+    background-color: aqua;  
 }
 /*Style the links inside the navigation bar*/
 li a{
@@ -19,18 +20,18 @@ li a{
     font-family:Lucida Sans Unicode;
     display: block;
 }
+/*Styling the logo*/
+#logo{
+    float: left;
+
+}
 /*Change the color of links on hover*/
 li a:hover{
-    background-color: #ddd;
+    background-color:rgb(136, 228, 228);
     color: black;
 }
-/*Add an active class to highlight the current page*/
-li a.active{
-    background-color: turquoise;
-    color: white;
-}
 #par {
-    font-size: 25px;
+    font-size: 23px;
     font-style: italic;
     font-family: Arial Narrow bold;
     color: black;
@@ -47,7 +48,7 @@ li a.active{
 }
 /*Hide images by default*/
 .mySlides{
-    display: none;
+    display:none;
 }
 /*Next & previous buttons*/
 .prev,.next{
@@ -122,3 +123,4 @@ li a.active{
     from {opacity: .4}
     to {opacity: 1}
 }
+
