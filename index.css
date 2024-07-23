@@ -1,6 +1,4 @@
-*{
-    background-color:teal;
-}
+/*The Home Page*/
 ul{
     overflow: hidden;
     display: inline;
@@ -23,6 +21,7 @@ li a{
 /*Styling the logo*/
 #logo{
     float: left;
+    border-radius: 10px;
 
 }
 /*Change the color of links on hover*/
@@ -39,6 +38,7 @@ li a:hover{
 }
 *{
     box-sizing: border-box;
+    background-color:teal;
 }
 /*Slideshow container*/
 .slideshow-container{
@@ -49,6 +49,7 @@ li a:hover{
 /*Hide images by default*/
 .mySlides{
     display:none;
+    border-radius: 15px;
 }
 /*Next & previous buttons*/
 .prev,.next{
@@ -122,5 +123,66 @@ li a:hover{
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+}
+/*La Gallerios*/
+#gally{
+    padding: 25px 55px;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+    text-shadow: #717171;
+    text-align: center;
+    text-transform: capitalize;
+}
+.pro-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.pro{
+    height: 400px;
+    width: 280px;
+    border: 2px solid turquoise;
+    padding: 10px 12px;
+    border-radius: 25px;
+    transition: 0.02s ease;
+    position: relative;
+    margin-bottom: 20px;
+}
+.pics{
+    height: 280px;
+    width: 250px;
+    border-radius: 20px;
+}
+.mid{
+    font-size: 12px;
+    font-family:'Lucida Sans Unicode';
+    text-align: center;
+}
+.add{
+    height: 350px;
+    width: 450px;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+/*The About Page*/
+#ks{
+    height:400px;
+    width: 400px;
+    margin-top: 140px;
+    position: relative;
+    margin-left: -700px;
+    border-radius: 10px;    
+}
+#h1rt{
+    margin-top: -400px;
+    margin-left: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: capitalize;
 }
 
