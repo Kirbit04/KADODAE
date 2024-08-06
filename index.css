@@ -5,7 +5,7 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: aqua;  
+    position: sticky;
 }
 /*Style the links inside the navigation bar*/
 li a{
@@ -17,16 +17,18 @@ li a{
     text-transform: capitalize;
     font-family:Lucida Sans Unicode;
     display: block;
+    position: sticky;
 }
 /*Styling the logo*/
 #logo{
     float: left;
     border-radius: 10px;
+    position: sticky;
 
 }
 /*Change the color of links on hover*/
 li a:hover{
-    background-color:rgb(136, 228, 228);
+    background-color:palevioletred;
     color: black;
 }
 #par {
@@ -38,7 +40,7 @@ li a:hover{
 }
 *{
     box-sizing: border-box;
-    background-color:teal;
+    background-color: thistle;
 }
 /*Slideshow container*/
 .slideshow-container{
@@ -145,7 +147,7 @@ h1{
 .pro{
     height: 400px;
     width: 280px;
-    border: 2px solid turquoise;
+    border: 2px solid palevioletred;
     padding: 10px 12px;
     border-radius: 25px;
     transition: 0.02s ease;
@@ -184,5 +186,32 @@ h1{
     font-style: italic;
     text-decoration: none;
     text-transform: capitalize;
+}
+.about{
+    margin-left: 500px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+#motto{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Indenting*/
+#indent{
+    margin-right: 750px;
+    margin-left: 40px;
+    border: 2px solid palevioletred;
+    padding: 15px 10px;
+    border-radius: 10px;
+    
+}
+#innd{
+    margin-left: 700px;
+    margin-right: 70px;
+    margin-top: -210px;
+    border: 2px solid palevioletred;
+    padding: 15px 15px;
+    border-radius: 10px;
 }
 
