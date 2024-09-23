@@ -271,5 +271,13 @@ h1{
     font-family: 'Times New Roman', Times, serif;
 }
 /* end of blog  */
-
-
+/*the order page*/
+.slider{
+    padding-top: 150px;
+}
+/*The creations Page*/
+#collect{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+}
